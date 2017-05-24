@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding-top: 20%;
+        padding-left: 42%;
+    }
+    button{
+        background-color: #1c1cce;
+        font-size: 1.1rem;
+        border: none;
+        width: 11%;
+        height: 53px;
+        color: white;
+    }
+    button:nth-child(2) {
+        background-color: brown;
+        margin-left: 4%;
+    }
+</style>
+<body>
+<button onclick="fighter(improvedFighter,fighter2, [2,1,5])" id="p1"> Player 1 </button>
+
+<button onclick="fighter(fighter2,improvedFighter,[5,3,4])" id="p2"> Player 2 </button>
+</body>
+<script src="js.js"></script>
+</html>
